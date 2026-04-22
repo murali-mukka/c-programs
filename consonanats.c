@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int main()
+{
+   char ch;
+   printf("enter the character \n");
+   scanf("%c",&ch);
+   int res=(ch>='A')||(ch>='E')||(ch>='I')||(ch>='O')||(ch>='U')||(ch>='a')||(ch>='e')||(ch>='i')||(ch>='o')||(ch>='u')||
+   printf("%c is not a vowel i.e is:%c",ch,res);
+   return 0;
+} 
+     
